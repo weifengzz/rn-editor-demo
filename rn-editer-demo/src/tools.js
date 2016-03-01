@@ -7,19 +7,19 @@ export default class Header extends React.Component {
 	  		<div className="list-group">
 				  <span className="list-group-item">
 				  	View
-				  	<img src={"./imgs/v.png"} className="toolsImg" id="drag1" draggable={true} onDragStart={this.drag}></img>
+				  	<img src={"./imgs/v.png"} className="toolsImg" id="drag1" draggable={true} onDragStart={this.drag} ></img>
 				  </span>
 				  <span className="list-group-item">
 				  	Image
-				  	<img src={"./imgs/img.png"} className="toolsImg" ></img>
+				  	<img src={"./imgs/img.png"} className="toolsImg" id="drag2" draggable={true} onDragStart={this.drag}></img>
 				  </span>
 				   <span className="list-group-item">
 				  	Text
-				  	<img src={"./imgs/txt.png"} className="toolsImg"></img>
+				  	<img src={"./imgs/txt.png"} className="toolsImg" id="drag3" draggable={true} onDragStart={this.drag}></img>
 				  </span>
 				  <span className="list-group-item">
 				  	TextInput
-				  	<img src={"./imgs/txtInput.png"} className="toolsImg"></img>
+				  	<img src={"./imgs/txtInput.png"} className="toolsImg" id="drag4" draggable={true} onDragStart={this.drag}></img>
 				  </span>
 				   <span className="list-group-item">
 				  	View
