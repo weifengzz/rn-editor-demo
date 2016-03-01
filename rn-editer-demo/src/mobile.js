@@ -34,8 +34,7 @@ export default class Mobile extends React.Component {
 		var t=event.target.appendChild(document.getElementById(data));
 		document.getElementById(data).style.width = "100px"; 
 		document.getElementById(data).style.height = "100px"; 
-		document.getElementById(data).style.float = "left"; 
-		document.getElementById(data).style.position = "absolute";
+		document.getElementById(data).style.float = "left";
 	}
 }
 

@@ -4,6 +4,7 @@ import Tools from './tools'
 import Drag from './drag'
 import Attributes from './Attributes'
 import Mobile from './mobile'
+import AddMobile from './AddMobile'
 
 export default React.createClass({
   render() {
@@ -27,9 +28,7 @@ export default React.createClass({
       	<div style={{float:"left"}}>
       		<Mobile/>
       	</div>
-      	<div style={{float:"left", paddingTop:250,marginLeft: 100}}>
-      		<img src="./imgs/add.png" style={{height: 80,width: 80}}/>
-      	</div>
+      	<AddMobile/>
       </div>
       <div id="right">
       	<div id="right-all">
