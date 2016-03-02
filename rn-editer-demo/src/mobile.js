@@ -31,10 +31,12 @@ export default class Mobile extends React.Component {
 	{
 		event.preventDefault();
 		var data=event.dataTransfer.getData("Text");
-		var t=event.target.appendChild(document.getElementById(data));
-		document.getElementById(data).style.width = "100px"; 
-		document.getElementById(data).style.height = "100px"; 
-		document.getElementById(data).style.float = "left";
+		var d = data.split("|");
+		var t=event.target.appendChild(document.getElementById(d[0]));
+		document.getElementById(d[0]).style.width = "100px"; 
+		document.getElementById(d[0]).style.height = "100px"; 
+		document.getElementById(d[0]).style.float = "left";
+		
 	}
 }
 

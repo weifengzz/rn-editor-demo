@@ -6,6 +6,8 @@ import Attributes from './Attributes'
 import Mobile from './mobile'
 import AddMobile from './AddMobile'
 
+let mobiles = [];
+
 export default React.createClass({
   render() {
     return <div>

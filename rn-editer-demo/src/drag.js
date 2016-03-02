@@ -21,10 +21,9 @@ export default class Drag extends React.Component {
 	};
 
 	drop(event)
-	{
-		alert("dsf");	
+	{	
 		event.preventDefault();
-		var data=event.dataTransfer.getData("Text");
+		var data=event.dataTransfer.getData("Text").id;
 		event.target.appendChild(document.getElementById(data));	
 	}
 }
